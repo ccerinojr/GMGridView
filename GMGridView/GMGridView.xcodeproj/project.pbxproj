@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16A0361014A012E60062437D /* UIGestureRecognizer+GMGridViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A0360E14A012E50062437D /* UIGestureRecognizer+GMGridViewAdditions.h */; };
 		16A0361114A012E60062437D /* UIGestureRecognizer+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A0360F14A012E50062437D /* UIGestureRecognizer+GMGridViewAdditions.m */; };
-		16A0361514A012EF0062437D /* UIView+GMGridViewAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A0361314A012EF0062437D /* UIView+GMGridViewAdditions.h */; };
 		16A0361614A012EF0062437D /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A0361414A012EF0062437D /* UIView+GMGridViewAdditions.m */; };
 		78509316149FAC2E000787E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78509315149FAC2E000787E4 /* Foundation.framework */; };
-		78509341149FAC61000787E4 /* GMGridView-Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 78509335149FAC61000787E4 /* GMGridView-Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78509342149FAC61000787E4 /* GMGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78509336149FAC61000787E4 /* GMGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78509343149FAC61000787E4 /* GMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78509337149FAC61000787E4 /* GMGridView.m */; };
-		78509344149FAC61000787E4 /* GMGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78509338149FAC61000787E4 /* GMGridViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78509345149FAC61000787E4 /* GMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78509339149FAC61000787E4 /* GMGridViewCell.m */; };
-		78509346149FAC61000787E4 /* GMGridViewCell+Extended.h in Headers */ = {isa = PBXBuildFile; fileRef = 7850933A149FAC61000787E4 /* GMGridViewCell+Extended.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78509347149FAC61000787E4 /* GMGridViewLayoutStrategies.h in Headers */ = {isa = PBXBuildFile; fileRef = 7850933B149FAC61000787E4 /* GMGridViewLayoutStrategies.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78509348149FAC61000787E4 /* GMGridViewLayoutStrategies.m in Sources */ = {isa = PBXBuildFile; fileRef = 7850933C149FAC61000787E4 /* GMGridViewLayoutStrategies.m */; };
 		78509350149FAC71000787E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7850934D149FAC71000787E4 /* QuartzCore.framework */; };
 		78509351149FAC71000787E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7850934E149FAC71000787E4 /* UIKit.framework */; };
 		78509352149FAC71000787E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7850934F149FAC71000787E4 /* CoreGraphics.framework */; };
+		9AB1D515160F5619002D88E5 /* GMGridView-Constants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78509335149FAC61000787E4 /* GMGridView-Constants.h */; };
+		9AB1D516160F5619002D88E5 /* GMGridView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78509336149FAC61000787E4 /* GMGridView.h */; };
+		9AB1D517160F5619002D88E5 /* GMGridViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 78509338149FAC61000787E4 /* GMGridViewCell.h */; };
+		9AB1D518160F5619002D88E5 /* GMGridViewCell+Extended.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7850933A149FAC61000787E4 /* GMGridViewCell+Extended.h */; };
+		9AB1D519160F5619002D88E5 /* GMGridViewLayoutStrategies.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7850933B149FAC61000787E4 /* GMGridViewLayoutStrategies.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AB1D513160F55F1002D88E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9AB1D515160F5619002D88E5 /* GMGridView-Constants.h in CopyFiles */,
+				9AB1D516160F5619002D88E5 /* GMGridView.h in CopyFiles */,
+				9AB1D517160F5619002D88E5 /* GMGridViewCell.h in CopyFiles */,
+				9AB1D518160F5619002D88E5 /* GMGridViewCell+Extended.h in CopyFiles */,
+				9AB1D519160F5619002D88E5 /* GMGridViewLayoutStrategies.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		16A0360E14A012E50062437D /* UIGestureRecognizer+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+GMGridViewAdditions.h"; sourceTree = SOURCE_ROOT; };
@@ -117,23 +132,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		78509310149FAC2E000787E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78509341149FAC61000787E4 /* GMGridView-Constants.h in Headers */,
-				78509342149FAC61000787E4 /* GMGridView.h in Headers */,
-				78509344149FAC61000787E4 /* GMGridViewCell.h in Headers */,
-				78509346149FAC61000787E4 /* GMGridViewCell+Extended.h in Headers */,
-				78509347149FAC61000787E4 /* GMGridViewLayoutStrategies.h in Headers */,
-				16A0361014A012E60062437D /* UIGestureRecognizer+GMGridViewAdditions.h in Headers */,
-				16A0361514A012EF0062437D /* UIView+GMGridViewAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		78509311149FAC2E000787E4 /* GMGridView */ = {
 			isa = PBXNativeTarget;
@@ -141,7 +139,7 @@
 			buildPhases = (
 				7850930E149FAC2E000787E4 /* Sources */,
 				7850930F149FAC2E000787E4 /* Frameworks */,
-				78509310149FAC2E000787E4 /* Headers */,
+				9AB1D513160F55F1002D88E5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
