@@ -199,6 +199,7 @@
 					i386,
 					armv7,
 					armv6,
+					armv7s,
 				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
@@ -228,6 +229,7 @@
 					i386,
 					armv7,
 					armv6,
+					armv7s,
 				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
